@@ -2,15 +2,17 @@
 
 I am designing a decentralized marketplace which can be further extended to meet specific requirements. 
 
-![](images/CryptoPuppies_Marketplace.png)
+![](images/screen.png)
 
 This is a marketplace that runs on the blockchain. It allows individuals to list "NFTs" for sale and to purchase them on the website with Ethereum in the Ropsten network. This application is powered by a smart contract on the blockchain which manages the market place. For example it tracks who owns the "NFT" for sale, and it automatically transfers the ownership of it when a transaction is complete.
+
 
 ### Features
 - Mint custom ERC721 implemented NFT.
 - Buy token on the marketplace.
 - Keeps track of all the tokens owned by an account - minted and bought.
 - Query blockchain for token owner and token metadata.
+
 
 ### **Languages and Tools**
 - [Solidity](https://docs.soliditylang.org/en/v0.7.6/) for Smart contract.
@@ -25,11 +27,14 @@ This is a marketplace that runs on the blockchain. It allows individuals to list
 
 - [Metamask](https://docs.metamask.io/guide/getting-started.html), crypto wallet allows to store and transact Ethereum or any other ERC tokens.
 
+
 ### Interact with the deployed DApp
 Connect metamask browser wallet to Ropsten Test Network.
 
 Request and get test etheres for the metamask account from [Ropsten Faucet](https://faucet.ropsten.be/) to make transactions.
-#### Marketplace Smart Contract is deployed to Ropsten Testnet - [0x9ae7B1d535e82AF09b75E9ADDEBA7239B52498E4](https://ropsten.etherscan.io/address/0x9ae7B1d535e82AF09b75E9ADDEBA7239B52498E4)
+
+Marketplace Smart Contract is deployed to Ropsten Testnet - [0x9ae7B1d535e82AF09b75E9ADDEBA7239B52498E4](https://ropsten.etherscan.io/address/0x9ae7B1d535e82AF09b75E9ADDEBA7239B52498E4)
+
 
 ### Run the DApp Locally
 #### Install truffle
@@ -46,7 +51,6 @@ ganache-cli --port 7545 --quiet
 ```
 #### Install dependencies
 ```
-cd cryptoboys-NFT-marketplace
 yarn install
 ```
 #### Compile smart contract
@@ -67,6 +71,7 @@ yarn run start
 ```
 #### Open metamask browser wallet and connect network to Localhost 7545.
 #### Import accounts from ganache-cli into the metamask browser wallet to make transactions on the DApp.
+
 
 ### **Sources**
 * [How To Build A Blockchain App ](https://www.dappuniversity.com/articles/how-to-build-a-blockchain-app#dependencies)
