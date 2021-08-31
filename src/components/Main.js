@@ -5,7 +5,7 @@ class Main extends Component {
   render() {
     return (
       <div id="content">
-        <h3>Add CryptoPuppy</h3>
+        <h3>Add NFT</h3>
         <form onSubmit={(event) => {
           event.preventDefault()
           const name = this.productName.value
@@ -19,7 +19,7 @@ class Main extends Component {
               type="text"
               ref={(input) => { this.productName = input }}
               className="form-control"
-              placeholder="Product Name"
+              placeholder="NFT Name"
               required />
           </div>
           <div className="form-group mr-sm-2">
@@ -28,7 +28,7 @@ class Main extends Component {
               type="text"
               ref={(input) => { this.productImage = input }}
               className="form-control"
-              placeholder="Product Image"
+              placeholder="NFT Image"
               required />
           </div>
           <div className="form-group mr-sm-2">
@@ -37,13 +37,13 @@ class Main extends Component {
               type="text"
               ref={(input) => { this.productPrice = input }}
               className="form-control"
-              placeholder="Product Price"
+              placeholder="NFT Price"
               required />
           </div>
-          <button type="submit" className="btn btn-primary">Add Product</button>
+          <button type="submit" className="btn btn-primary">Add NFT</button>
         </form>
         <p>&nbsp;</p>
-        <h3>Buy CryptoPuppy</h3>
+        <h3>Buy NFT</h3>
         <table className="table">
           <thead>
             <tr>

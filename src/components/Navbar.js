@@ -12,9 +12,9 @@ class Navbar extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTdYQuoaDP0HZQEflpPD8N27xYttkjOUvBKQ&usqp=CAU'  alt="" border="3" height="40" width="40"></img>
+          {/* <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTdYQuoaDP0HZQEflpPD8N27xYttkjOUvBKQ&usqp=CAU'  alt="" border="3" height="40" width="40"></img> */}
           <span>  </span>
-          CryptoPuppies Marketplace
+          NFT Marketplace and Blocknative Demo
         </a>
         <ul className="navbar-nav px-3">
           <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
