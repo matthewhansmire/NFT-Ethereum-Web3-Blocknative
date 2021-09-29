@@ -35,7 +35,7 @@ Request and get test etheres for the metamask account from [Ropsten Faucet](http
 
 Marketplace Smart Contract is deployed to Ropsten Testnet - [0x9ae7B1d535e82AF09b75E9ADDEBA7239B52498E4](https://ropsten.etherscan.io/address/0x9ae7B1d535e82AF09b75E9ADDEBA7239B52498E4)
 
-
+ 
 ### Run the DApp Locally
 #### Install truffle
 ```
