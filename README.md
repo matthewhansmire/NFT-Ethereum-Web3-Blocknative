@@ -26,7 +26,7 @@ This is a marketplace that runs on the blockchain. It allows individuals to list
 - [blocknative](https://docs.blocknative.com/onboard) makes it easy to access wallets and work with every other aspects of Web3.
 
 - [Metamask](https://docs.metamask.io/guide/getting-started.html), crypto wallet allows to store and transact Ethereum or any other ERC tokens.
-
+ 
 
 ### Interact with the deployed DApp
 Connect metamask browser wallet to Ropsten Test Network.
